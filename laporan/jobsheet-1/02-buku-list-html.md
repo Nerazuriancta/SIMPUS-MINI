@@ -92,7 +92,7 @@ Menutup kolom aksi
 ### 42. `</tr>`
 Menutup baris data buku
 
-### Untuk data berikutnya, strukturnya sama. Setiap `<tr>` digunakan untuk membuat satu baris buku, sedangkan `<td>` digunakan untuk mengisi data pada setiap kolom.
+Untuk data berikutnya, strukturnya sama. Setiap `<tr>` digunakan untuk membuat satu baris buku, sedangkan `<td>` digunakan untuk mengisi data pada setiap kolom.
 
 ## 2.2 Kesimpulan
 File `buku/list.html` digunakan untuk menampilkan data buku dalam bentuk tabel. Tabel tersebut berisi judul, pengarang, tahun, stok, serta tombol Edit dan Hapus. Tombol Edit dan Hapus pada program ini masih berupa tampilan dan belum dapat digunakan untuk mengubah atau menghapus data.

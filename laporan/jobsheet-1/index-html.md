@@ -128,7 +128,7 @@ Sekadar teks sambutan: satu `<h2>` (judul sub-bagian, satu level di bawah
     </article>
 </section>
 ```
-- <section> digunakan untuk mengelompokkan bagian-bagian tertentu dalam satu halaman HTML berdasarkan topik atau isi yang sama
+- `<section>` digunakan untuk mengelompokkan bagian-bagian tertentu dalam satu halaman HTML berdasarkan topik atau isi yang sama
 - Setiap `<article>` di sini mewakili satu "kartu" statistik yang berdiri sendiri: judul kecil (`<h3>`, satu level di bawah `<h2>`) + angka (`<p>`).
 - Angka `10`, `8`, `3` di sini **hanya data contoh (dummy)**, diketik manual. Belum ada logika yang menghitung dari data asli — itu akan dipelajari saat masuk ke pemrograman sisi server/JavaScript.
 - Kenapa dipilih `<article>` dan bukan `<div>`? Karena tiap kartu bisa "berdiri sendiri" secara makna — kalau dipindah ke halaman lain pun, informasinya tetap utuh dan masuk akal (misalnya "Total Buku: 10").

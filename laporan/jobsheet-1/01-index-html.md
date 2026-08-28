@@ -47,7 +47,7 @@ Menutup bagian kepala halaman.
 ### 19. `<main>`
 Membuka bagian utama halaman.
 ### 20. `<section>` pertama
-Membuka bagian untuk mengelompokkan isi halaman yang berisi `<h2>` dan `<p>`
+Membuka bagian untuk mengelompokkan isi halaman yang berisi `<h2>` dam `<p>`
 ### 21. `<h2>Selamat Datang di Sistem Perpustakaan Mini</h2>`
 Menampilkan judul bagian sambutan.
 ### 22. `<p>Aplikasi sederhana untuk mengelola data buku dan anggota perpustakaan.</p>`

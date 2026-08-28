@@ -71,7 +71,7 @@ Menutup bagian kepala tabel.
 ### 32.	`<tbody>`	
 Membuka bagian isi tabel yang berisi data anggota.
 
-Struktur kode tersebut digunakan kembali untuk menampilkan data anggota lainnya, yaitu A002 sampai A008 dengan data yang berbeda.
+**Struktur kode tersebut digunakan kembali untuk menampilkan data anggota lainnya, yaitu A002 sampai A008 dengan data yang berbeda.**
 
 ## 2.2 Kesimpulan
 File `anggota/list.html` digunakan untuk menampilkan data anggota dalam bentuk tabel. Tabel tersebut berisi nomor anggota, nama, alamat, nomor HP, serta tombol Edit dan Hapus. Tombol Edit dan Hapus pada program ini masih berupa tampilan dan belum dapat digunakan untuk mengubah atau menghapus data.

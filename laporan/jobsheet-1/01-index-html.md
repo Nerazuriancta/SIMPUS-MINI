@@ -98,4 +98,4 @@ Menutup bagian isi halaman.
 Menutup seluruh dokumen HTML.
 
 ## 1.3 KESIMPULAN
-File index.html digunakan sebagai halaman beranda dari aplikasi SIMPUS-Mini. Di dalamnya terdapat menu navigasi, informasi singkat mengenai aplikasi, serta ringkasan data perpustakaan. Data yang ditampilkan pada ringkasan masih berupa data yang ditulis langsung pada HTML dan belum terhubung dengan database.
+File `index.html` digunakan sebagai halaman beranda dari aplikasi SIMPUS-Mini. Di dalamnya terdapat menu navigasi, informasi singkat mengenai aplikasi, serta ringkasan data perpustakaan. Data yang ditampilkan pada ringkasan masih berupa data yang ditulis langsung pada HTML dan belum terhubung dengan database.

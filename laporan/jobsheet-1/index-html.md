@@ -4,7 +4,7 @@
 
 # PENJELASAN `index.html`
 
-File [index.html] (index.html) merupakan halaman utama dari website SIMPUS-Mini. Di dalam file ini terdapat tampilan awal aplikasi, menu untuk berpindah halaman, ringkasan data perpustakaan, dan bagian footer.
+File [index.html](index.html) merupakan halaman utama dari website SIMPUS-Mini. Di dalam file ini terdapat tampilan awal aplikasi, menu untuk berpindah halaman, ringkasan data perpustakaan, dan bagian footer.
 
 ## 2.1 Kode Program
 ```html

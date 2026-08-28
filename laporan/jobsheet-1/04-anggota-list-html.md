@@ -5,7 +5,8 @@
 # 2. PENJELASAN `anggota/list.html`
 File [list.html](../anggota/list.html) merupakan halaman yang digunakan untuk menampilkan daftar anggota pada website SIMPUS-Mini. Pada halaman ini terdapat tabel yang berisi nomor anggota, nama, alamat, nomor HP, serta tombol aksi berupa Edit dan Hapus.
 
-## 2.1 Kode Program
+## 2.1 Fungsi Per-Baris
+
 ### 1. `<!DOCTYPE html>`
 Menentukan bahwa dokumen menggunakan HTML5.
 ### 2. `<html lang="id">`	

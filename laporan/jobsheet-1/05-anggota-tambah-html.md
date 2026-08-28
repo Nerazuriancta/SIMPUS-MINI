@@ -6,6 +6,7 @@
 File [anggota/tambah.html](../../anggota/tambah.html) merupakan halaman yang digunakan untuk menambahkan data anggota pada website SIMPUS-Mini. Pada halaman ini terdapat form untuk memasukkan nama, nomor anggota, alamat, dan nomor HP.
 
 ## 2.2 Fungsi Setiap Baris
+
 ### 1. `<!DOCTYPE html>` 
 Menentukan bahwa dokumen menggunakan HTML5.
 ### 2. `<html lang="id">` 

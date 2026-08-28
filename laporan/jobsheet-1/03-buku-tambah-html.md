@@ -6,6 +6,7 @@
 File [buku/tambah.html](../../buku/tambah.html) merupakan halaman yang digunakan untuk menambahkan data buku pada website SIMPUS-Mini. Pada halaman ini terdapat form yang dapat digunakan untuk mengisi data buku seperti judul, pengarang, tahun terbit, ISBN, stok, dan kategori.
 
 ## 3.1 Fungsi Per-Baris
+
 ### 1. `<!DOCTYPE html>`
 Menentukan bahwa dokumen menggunakan HTML5.
 ### 2. `<html lang='id'>`

@@ -77,8 +77,3 @@ Saya menghapus `<br>` karena itu membuat jarak antara Judul dan kotak input terl
 16. Kemudian saat cursor diarahkan ke tombol submit, saya mengganti warnanya yang awalnya biru menjadi `background-color: #954c1e;`.
 
 17. Terakhir, pada bagian footer saya mengubah warna teks menjadi `color: #b24f0d;`.
-
-# Sumber
-
-- [W3Schools](https://www.w3schools.com/)
-- [GitHub/Dimas1984/PemrogramanWeb2026](https://github.com/dimas1984/PemogramanWeb2026/tree/main)

@@ -43,64 +43,42 @@ Saya menghapus `<br>` karena itu membuat jarak antara Judul dan kotak input terl
 # MODIFIKASI PADA JOBSHEET 2
 
 1. Saya mengganti tema website menjadi warna coklat.
-2. Saya mengubah:
-`background-color: #f5f6f8;`
-menjadi:
-`background-color: #ddad9c;`
-pada bagian `<body>`.
-3. Di bagian `header {}`, saya mengubah:
-`background-color: #1d5b8a;`
-menjadi:
-`background-color: #5a2e25;`
-4. Masih di bagian `header {}`, saya menambahkan:
-```css
-position: sticky;
-top: 0;
-z-index: 1000;
-```
-agar saat di-scroll ke bawah bagian `<header>` masih tetap terlihat.
-5. Kemudian pada bagian `section {}`, saya mengubah:
-`box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);`
-menjadi:
-`box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);`
-6. Pada bagian `section h2 {}`, saya mengubah:
-`color: #1d5b8a;`
-menjadi:
-`color: #4f3d35;`
-7. Saya juga menambahkan:
-```css
-main section:nth-of-type(2) h2 {
-        grid-column: 1 / -1;
-    }
-```
-Kode ini saya tambahkan karena sebelumnya judul "Ringkasan" ikut masuk ke dalam susunan CSS Grid. Akibatnya kartu statistik menjadi tidak sejajar. `grid-column: 1 / -1` digunakan agar judul menggunakan seluruh kolom, sehingga tiga kartu statistik dapat berada dalam satu baris.
-8. Di bagian `main section:nth-of-type(2) article {}`, saya mengubah warnanya menjadi:
-`background-color: #ebd7d4;`
-9. Saya juga menambahkan kode:
-```css
-main section:nth-of-type(2) article:hover {
-    background-color: #dbc4bc;
-    box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);
-}
-```
-agar ada efek hover saat cursor diarahkan ke 3 kotak ringkasan.
-10. Di bagian `main section:nth-of-type(2) article h3 {}`, saya mengubah warna teks menjadi:
-`color: #b46258;`
-11. Di bagian `main section:nth-of-type(2) article p {}`, saya mengubah warna teks menjadi:
-`color: #fca47c;`
-12. Di bagian `thead`, saya mengubah background pada kepala tabel menjadi:
-`background-color: #5a2e25;`
-13. Di bagian `tbody tr:nth-child(even) {}`, warna isi tabel genap saya ubah menjadi:
-`background-color: #f1efee;`
-14. Saat mouse diarahkan ke tabel, saya mengubah warnanya menjadi:
-`background-color: #f7ebe3;`
-15. Pada button submit, saya mengubah warna background menjadi:
-`background-color: #5a2e25;`
-16. Kemudian saat cursor diarahkan ke tombol submit, saya mengganti warnanya yang awalnya biru menjadi:
-`background-color: #954c1e;`
-17. Terakhir, pada bagian footer saya mengubah warna teks menjadi:
-`color: #b24f0d;`
+
+2. Saya mengubah `background-color: #f5f6f8;` menjadi `background-color: #ddad9c;` pada bagian `<body>`.
+
+3. Di bagian `header {}`, saya mengubah `background-color: #1d5b8a;` menjadi `background-color: #5a2e25;`.
+
+4. Masih di bagian `header {}`, saya menambahkan `position: sticky;`, `top: 0;`, dan `z-index: 1000;` agar saat di-scroll ke bawah bagian `<header>` masih tetap terlihat.
+
+5. Kemudian pada bagian `section {}`, saya mengubah `box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);` menjadi `box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);`.
+
+6. Pada bagian `section h2 {}`, saya mengubah `color: #1d5b8a;` menjadi `color: #4f3d35;`.
+
+7. Saya juga menambahkan `grid-column: 1 / -1;` pada bagian `main section:nth-of-type(2) h2`.
+
+   Kode ini saya tambahkan karena sebelumnya judul "Ringkasan" ikut masuk ke dalam susunan CSS Grid. Akibatnya kartu statistik menjadi tidak sejajar. `grid-column: 1 / -1` digunakan agar judul menggunakan seluruh kolom, sehingga tiga kartu statistik dapat berada dalam satu baris.
+
+8. Di bagian `main section:nth-of-type(2) article {}`, saya mengubah warnanya menjadi `background-color: #ebd7d4;`.
+
+9. Saya juga menambahkan efek hover pada kotak ringkasan dengan `main section:nth-of-type(2) article:hover`. Background diubah menjadi `#dbc4bc` dan ditambahkan `box-shadow` agar ada efek saat cursor diarahkan ke 3 kotak ringkasan.
+
+10. Di bagian `main section:nth-of-type(2) article h3 {}`, saya mengubah warna teks menjadi `color: #b46258;`.
+
+11. Di bagian `main section:nth-of-type(2) article p {}`, saya mengubah warna teks menjadi `color: #fca47c;`.
+
+12. Di bagian `thead`, saya mengubah background pada kepala tabel menjadi `background-color: #5a2e25;`.
+
+13. Di bagian `tbody tr:nth-child(even) {}`, warna isi tabel genap saya ubah menjadi `background-color: #f1efee;`.
+
+14. Saat mouse diarahkan ke tabel, saya mengubah warnanya menjadi `background-color: #f7ebe3;`.
+
+15. Pada button submit, saya mengubah warna background menjadi `background-color: #5a2e25;`.
+
+16. Kemudian saat cursor diarahkan ke tombol submit, saya mengganti warnanya yang awalnya biru menjadi `background-color: #954c1e;`.
+
+17. Terakhir, pada bagian footer saya mengubah warna teks menjadi `color: #b24f0d;`.
 
 # Sumber
+
 - [W3Schools](https://www.w3schools.com/)
 - [GitHub/Dimas1984/PemrogramanWeb2026](https://github.com/dimas1984/PemogramanWeb2026/tree/main)

@@ -37,7 +37,7 @@ header {
     top: 0;
     z-index: 1000;
 }
-````markdown
+```text
 agar saat di scroll ke bawah bagian `<header>` masih kelihatan.
 5. kemudian pada bagian `<section{}` saya mengubah `box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);` menjadi `box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);`
 6. pada bagian `section h2{}` saya mengubah `color: #1d5b8a;` menjadi `color: #4f3d35;`

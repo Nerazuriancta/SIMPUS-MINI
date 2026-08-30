@@ -24,16 +24,25 @@
 2. saya mengubah `background-color: #f5f6f8;` menjadi `background-color: #ddad9c;` pada bagian `<body>`
 3. di bagian `header{}` saya mengubah `background-color: #1d5b8a;` menjadi `background-color: #5a2e25;`
 4. masih di bagian `header{}`, saya menambahkan 
-```html
-position: sticky;
-top: 0;
-z-index: 1000;
+```css
+header {
+    background-color: #5a2e25;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 ```
 agar saat di scroll ke bawah bagian `<header>` masih kelihatan.
 5. kemudian pada bagian `<section{}` saya mengubah `box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);` menjadi `box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);`
 6. pada bagian `section h2{}` saya mengubah `color: #1d5b8a;` menjadi `color: #4f3d35;`
 7. saya juga menambahkan 
-```html
+```css
 main section:nth-of-type(2) h2 {
     grid-column: 1 / -1;
 }
@@ -42,7 +51,7 @@ Kode ini saya tambahkan karena sebelumnya judul "Ringkasan" ikut masuk ke dalam 
 8. di bagian `main section:nth-of-type(2) article {}`, saya mengubah warnanya menjadi
 `background-color: #ebd7d4;`
 9. saya juga menambahkan kode
-```html
+```css
 main section:nth-of-type(2) article:hover {
     background-color: #dbc4bc;
     box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);

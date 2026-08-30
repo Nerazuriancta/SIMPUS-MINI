@@ -37,7 +37,7 @@ header {
     top: 0;
     z-index: 1000;
 }
-```
+````markdown
 agar saat di scroll ke bawah bagian `<header>` masih kelihatan.
 5. kemudian pada bagian `<section{}` saya mengubah `box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);` menjadi `box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);`
 6. pada bagian `section h2{}` saya mengubah `color: #1d5b8a;` menjadi `color: #4f3d35;`
@@ -46,7 +46,7 @@ agar saat di scroll ke bawah bagian `<header>` masih kelihatan.
 main section:nth-of-type(2) h2 {
     grid-column: 1 / -1;
 }
-```
+```text
 Kode ini saya tambahkan karena sebelumnya judul "Ringkasan" ikut masuk ke dalam susunan CSS Grid. Akibatnya kartu statistik menjadi tidak sejajar. `grid-column: 1 / -1` digunakan agar judul menggunakan seluruh kolom, sehingga tiga kartu statistik dapat berada dalam satu baris.
 8. di bagian `main section:nth-of-type(2) article {}`, saya mengubah warnanya menjadi
 `background-color: #ebd7d4;`
@@ -56,7 +56,7 @@ main section:nth-of-type(2) article:hover {
     background-color: #dbc4bc;
     box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);
 }
-```
+```text
 agar ada hovernya saat cursor di 3 kotak ringkasan
 10. di bagian `main section:nth-of-type(2) article h3 {}`, saya mengubah warna text menjadi `color: #b46258;`
 11. di bagian `main section:nth-of-type(2) article p {}` saya ubah lagi warnya textnya menjadi `color: #fca47c;`

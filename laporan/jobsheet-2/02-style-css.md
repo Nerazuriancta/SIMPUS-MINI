@@ -67,9 +67,8 @@ Browser akan mencoba menggunakan:
 Mengatur warna teks secara umum.
 `#2b2b2b` adalah kode warna abu-abu gelap.
 
-### 2.2.4 `background-color: #f5f6f8;`
+### 2.2.4 `background-color: #ddad9c;`
 Mengatur warna background halaman.
-sekarang warnanya abu-abu sangatt muda.
 
 ### 2.2.5 `line-height: 1.5;`
 Mengatur jarak antarbaris tulisan.
@@ -98,7 +97,9 @@ Menghilangkan garis bawah link.
 Menutup aturan link
 
 
-## 2.4 `a:hover {`
+## 2.4 Hover Link
+
+### 2.4.1 `a:hover {`
 `:hover` berarti ketika mouse diarahkan ke elemen
 
 ### 2.4.1 `text-decoration: underline;`
@@ -111,7 +112,7 @@ ketika mouse diarahkan ke link, garis bawah akan muncul
 mengatur bagian `<header>` pada website, bagian ini adalah area yang berisi:
 SIMPUS-MINI | Beranda | Daftar Buku | Tambah Buku | Daftar Anggota
 
-### 2.5.2 `background-color: #1d5b8a;`
+### 2.5.2 `background-color: #5a2e25;`
 Memberikan background biru pada header.
 
 ### 2.5.3 `color: #fff;`
@@ -135,6 +136,15 @@ Memberikan jarak antara elemen kiri dan kanan.
 
 ### 2.5.8 `flex-wrap: wrap;`
 Kalau layar terlalu kecil, elemen boleh turun ke baris berikutnya daripada dipaksakan satu baris.
+
+### 2.5.9 `position: sticky;`
+Membuat header bisa tetap menempel saat halaman di-scroll.
+
+### 2.5.10 `top: 0;`
+Header menempel di bagian paling atas.
+
+### 2.5.11 `z-index: 1000;`
+Memastikan header berada di atas konten lain.
 
 
 ## 2.6 Judul Header
@@ -213,7 +223,7 @@ Efeknya membuat konten berasa di tengah halaman
 Mengatur semua `<section>`
 
 ### 2.10.2 `background-color: #fff;`
-Background seciton menjadi putih
+Background section menjadi putih
 
 ### 2.10.3 `border-radius: 8px;`
 Membuat sudut kotak menjadi bulat.
@@ -224,7 +234,7 @@ Memberikan jarak antara isi section dengan pinggir kotak.
 ### 2.10.5 `margin-bottom: 1.5rem;`
 Memberikan jarak dibawah section.
 
-### 2.10.6 `box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);`
+### 2.10.6 `box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);`
 Memberikan bayangan tipis pada kotak.
 Kalau dihapus kotaknya akan terlihat lebih datar
 
@@ -232,13 +242,13 @@ Kalau dihapus kotaknya akan terlihat lebih datar
 ## 2.11 Judul Section
 
 ### 2.11.1 `section h2 {`
-Mengatur `<h2>` yang ebrada di dalam section.
+Mengatur `<h2>` yang berada di dalam section.
 
 ### 2.11.2 `margin-bottom: 1rem;`
 Memberikan jarak antara judul dengan isi dibawahnya.
 
-### 2.11.3 `color: #1d5b8a;`
-Warna judul menjadi biru.
+### 2.11.3 `color: #4f3d35;`
+Warna text judul.
 
 
 ## 2.12 Kartu Statistik
@@ -272,10 +282,15 @@ Membuat 3 kolom dengan ukuran sama.
 ### 2.12.4 `gap: 1rem;`
 Memberikan jarak antar kartu.
 
+## 2.13 Section Kedua
 
-## 2.13 Kartu Statistik
+### 2.13.1 `grid-column: 1 / -1;`
+Judul ringkasan menggunakan seluruh lebar grid
 
-### 2.13.1 `main section:nth-of-type(2) article {`
+
+## 2.1 Kartu Statistik
+
+### 2.14.1 `main section:nth-of-type(2) article {`
 Mengatur setiap `<article>` yang ada di section kedua.
 Misalnya:
 ```html
@@ -285,239 +300,253 @@ Misalnya:
 </article>
 ```
 
-### 2.13.2 `background-color: #eef4fa;`
-Memberikan background biru muda.
+### 2.14.2 `background-color: #ebd7d4;`
+Memberikan background.
 
-### 2.13.3 `border-radius: 8px;`
+### 2.14.3 `border-radius: 8px;`
 Membuat sudut kartu membulat.
 
-### 2.13.4 `padding: 1.25rem;`
+### 2.14.4 `padding: 1.25rem;`
 Memberikan ruang di dalam kartu.
 
-### 2.13.5 `text-align: center;`
+### 2.14.5 `text-align: center;`
 Membuat teks berada di tengah.
 
-## 2.14 Judul Kartu
 
-### 2.14.1 `main section:nth-of-type(2) article h3 {`
+## 2.15 Hover Ringkasan
+
+### 2.15.1 `main section:nth-of-type(2) article:hover {`
+Memilih bagian `<article>` yang berada di dalam `<section>` kedua pada `<main>`. :hover digunakan agar perubahan terjadi ketika kursor diarahkan ke kotak ringkasan.
+
+### 2.15.2 `background-color: #dbc4bc;`
+Background ketika cursor di kotak kartu ringkasan akan berubah warna.
+
+### 2.15.3 `box-shadow: 0 1px 3px rgba(79, 61, 53, 0.8);`
+Memberikan bayangan tipis pada kotak.
+Kalau dihapus kotaknya akan terlihat lebih datar
+
+
+## 2.11 Judul Kartu
+
+### 2.16.1 `main section:nth-of-type(2) article h3 {`
 Memilih `<h3>` pada kartu section kedua.
 
-### 2.14.2 `font-size: 0.95rem;`
+### 2.16.2 `font-size: 0.95rem;`
 Mengatur ukuran tulisan judul kartu.
 
-### 2.14.3 `color: #55677a;`
+### 2.16.3 `color: #b46258;`
 Mengatur warna judul.
 
-### 2.14.4 `margin-bottom: 0.5rem;`
+### 2.16.4 `margin-bottom: 0.5rem;`
 Memberikan jarak antara judul dan angka.
 
 
-## 2.15 Angka Statistik
+## 2.17 Angka Statistik
 
-### 2.15.1 `main section:nth-of-type(2) article p {`
+### 2.17.1 `main section:nth-of-type(2) article p {`
 Mengatur angka: 10, 8, 3
 
-### 2.15.2 `font-size: 1.8rem;`
+### 2.17.2 `font-size: 1.8rem;`
 Membuat angka besar.
 
-### 2.15.3 `font-weight: 700;`
+### 2.17.3 `font-weight: 700;`
 Membuat angka tebal.
 
-### 2.15.4 `color: #1d5b8a;`
-Membuat angka berwanfa biru.
+### 2.17.4 `color: #fca47c;`
+Membuat angka berwarna.
 
 
-## 2.16 Tabel
+## 2.18 Tabel
 
-### 2.16.1 `table {`
+### 2.18.1 `table {`
 Mengatur semua tabel.
 
-### 2.16.2 `width: 100%;`
+### 2.18.2 `width: 100%;`
 Tabel memenuhi seluruh lebar area yang tersedia.
 
-### 2.16.3 `border-collapse: collapse;`
+### 2.18.3 `border-collapse: collapse;`
 Membuat garis tabel menyatu sehingga tampil lebih rapi.
 
 
-## 2.17 `th` dan `td`
+## 2.19 `th` dan `td`
 
-### 2.17.1 `th, td {`
+### 2.19.1 `th, td {`
 Artinya aturan ini berlaku untuk:
 - th -> kepala tabel
 - td -> isi tabel
 
-### 2.17.2 `text-align: left;`
+### 2.19.2 `text-align: left;`
 Teks rata kiri.
 
-### 2.17.3 `padding: 0.65rem 0.75rem;`
+### 2.1.3 `padding: 0.65rem 0.75rem;`
 Memberikan ruang di dalam sel tabel.
 
-### 2.17.4 `border-bottom: 1px solid #e2e6ea;`
+### 2.19.4 `border-bottom: 1px solid #e2e6ea;`
 Memberikan garis tipis dibawah setiap sel.
 
 
-## 2.18 Header Tabel
+## 2.20 Header Tabel
 
-### 2.18.1 `thead {`
+### 2.20.1 `thead {`
 Mengatur bagian `<thead>`
 
-### 2.18.2 `background-color: #1d5b8a;`
-Background header tabel biru.
+### 2.20.2 `background-color: #5a2e25;`
+Background header tabel coklat.
 
-### 2.18.3 `color: #fff;`
+### 2.20.3 `color: #fff;`
 Tulisan putih.
 
 
-## 2.19 Warna Baris Selang-Seling
+## 2.21 Warna Baris Selang-Seling
 
-### 2.19.1 `tbody tr:nth-child(even) {`
+### 2.21.1 `tbody tr:nth-child(even) {`
 Memilih baris genap pada tabel.
 
-### 2.19.2 `background-color: #f7f9fb;`
-Memberikan warna abu-abu sangat muda.
+### 2.21.2 `background-color: #f1efee;`
+Memberikan warna.
 
 
-## 2.20 Saat Mouse di Tabel
+## 2.22 Saat Mouse di Tabel
 
-### 2.20.1 `tbody tr:hover {`
+### 2.22.1 `tbody tr:hover {`
 Ketika mouse diarahkan ke baris tabel...
 
-### 2.20.2 `background-color: #eef4fa;`
-...background baris berubah menjadi biru muda.
+### 2.22.2 `background-color: #f7ebe3;`
+...background baris berubah warna.
 
 
-## 2.21 Tombol Edit & Hapus
+## 2.23 Tombol Edit & Hapus
 
-### 2.21.1 `td button {`
+### 2.23.1 `td button {`
 Mengatur semua tombol yang ada di dalam tabel.
 
-### 2.21.2 `padding: 0.35rem 0.7rem;`
+### 2.23.2 `padding: 0.35rem 0.7rem;`
 Memberikan ruang di dalam tombol.
 
-### 2.21.3 `margin-right: 0.35rem;`
+### 2.23.3 `margin-right: 0.35rem;`
 Memberikan jarak antar tombol.
 
-### 2.21.4 `border: none;`
+### 2.23.4 `border: none;`
 Menghilangkan garis tepi tombol bawaan.
 
-### 2.21.5 `border-radius: 4px;`
+### 2.23.5 `border-radius: 4px;`
 Menghilangkan garis tepi tombol bawaan.
 
-### 2.21.6 `cursor: pointer;`
+### 2.23.6 `cursor: pointer;`
 Ketika mouse diarahkan ke tombol, cursor berubah menjadi tangan.
 
-### 2.21.7 `font-size: 0.85rem;`
+### 2.23.7 `font-size: 0.85rem;`
 Mengatur ukuran tulisan tombol.
 
 
-## 2.22 Tombol Edit
+## 2.24 Tombol Edit
 
-### 2.22.1 `td button:first-of-type {`
+### 2.24.1 `td button:first-of-type {`
 Memilih tombol pertama.
 Dalam kasus ini Edit dan Hapus, jadi yang dipilih adalah **Edit**
 
-### 2.22.2 `background-color: #f0ad4e;` `color: #fff;`
+### 2.24.2 `background-color: #f0ad4e;` `color: #fff;`
 Edit menjadi warna oranye dan tulisan putih.
 
 
-## 2.23 Tombol Hapus
+## 2.25 Tombol Hapus
 
-### 2.23.1 `td button:last-of-type {`
+### 2.25.1 `td button:last-of-type {`
 Memilih tombol terakhir, yaitu **Hapus**
 
-### 2.23.2 `background-color: #d9534f;` `color: #fff;`
+### 2.25.2 `background-color: #d9534f;` `color: #fff;`
 Hapus menjadi warna merah dan tulisan putih.
 
 
-## 2.24 Form
+## 2.26 Form
 
-### 2.24.1 `form p {`
+### 2.26.1 `form p {`
 Mengatur `<p>` yang berada di dalam form.
 
-### 2.24.2 `margin-bottom: 1rem;`
+### 2.26.2 `margin-bottom: 1rem;`
 Mmberikan jarak antar bagian form.
 
 
-## 2.25 Label
+## 2.27 Label
 
-### 2.25.1 `form label {`
+### 2.27.1 `form label {`
 Mengatur label.
 ```html
 <label for="judul">Judul</label><br>
 ```
 
-### 2.25.2 `display: block;`
+### 2.27.2 `display: block;`
 Membuat label berada daam satu baris sendiri.
 
-### 2.25.3 `margin-bottom: 0.35rem;`
+### 2.27.3 `margin-bottom: 0.35rem;`
 Memberikan jarak antara label dan input.
 
-### 2.25.4 `font-weight: 600;`
+### 2.27.4 `font-weight: 600;`
 Membuat label agak tebal.
 
-### 2.25.5 `color: #444;`
+### 2.27.5 `color: #444;`
 Warna label abu-abu gelap.
 
 
-## 2.26 Inpus & Select
+## 2.28 Input & Select
 
-### 2.26.1 `form input, form select {`
+### 2.28.1 `form input, form select {`
 Aturan ini berlaku untuk `<input>` dan `<select>`
 
-### 2.26.2 `width: 100%;`
+### 2.28.2 `width: 100%;`
 Lebar input menjadi 100% dari area yang tersedia.
 
-### 2.26.3 `max-width: 400px;`
+### 2.28.3 `max-width: 400px;`
 Tetapi maximal hanya400px.
 Jadi walaupun layar besar, input tidak akan terlalu panjang.
 
-### 2.26.4 `padding: 0.55rem 0.7rem;`
+### 2.28.4 `padding: 0.55rem 0.7rem;`
 Memberikann ruang di dalam input.
 
-### 2.26.5 `border: 1px solid #cdd4da;`
+### 2.28.5 `border: 1px solid #cdd4da;`
 Memberikan garis tepi tipis.
 
-### 2.26.6 `border-radius: 4px;`
+### 2.28.6 `border-radius: 4px;`
 Mmebuat sudut input sedikit membulat.
 
-### 2.26.7 `font-size: 1rem;`
+### 2.28.7 `font-size: 1rem;`
 Mengatur ukuran tulisan dalam input.
 
 
-## 2.27 FTombol Simpan
+## 2.29 Tombol Simpan
 
-### 2.27.1 `form button[type="submit"] {`
+### 2.97.1 `form button[type="submit"] {`
 Ini memilih button yang mempunyai `type="submit"`
 
-### 2.27.2 `background-color: #1d5b8a;`
-Background tombol biru.
+### 2.29.2 `background-color: #5a2e25;`
+Background tombol coklat.
 
-### 2.27.3 `color: #fff;`
+### 2.29.3 `color: #fff;`
 Tulisan putih
 
-### 2.27.4 `border: none;`
+### 2.29.4 `border: none;`
 Tidak ada garis tepi.
 
-### 2.27.5 `padding: 0.6rem 1.5rem;`
+### 2.29.5 `padding: 0.6rem 1.5rem;`
 Mengatur ukuran bagian dalam tombol.
 
-### 2.27.7 `border-radius: 4px;`
+### 2.29.7 `border-radius: 4px;`
 Sudut tombol sedikit membulat.
 
-### 2.27.8 `font-size: 1rem;`
+### 2.29.8 `font-size: 1rem;`
 Ukuran tulisan tombol.
 
-### 2.27.9 `cursor: pointer;`
+### 2.29.9 `cursor: pointer;`
 Cursor menjadi tangan ketika diarahkan ke tombol.
 
 
-## 2.28 Hover Tombol Simpan
+## 2.30 Hover Tombol Simpan
 
-### 2.28.1 `form button[type="submit"]:hover {`
+### 2.30.1 `form button[type="submit"]:hover {`
 Artinya ketika mouse diarahkan ke tombol **Simpan**.
 
-### 2.28.2 `background-color: #164869;`
-Warna tombol berubah menjadi biru yang lebih gelap.
+### 2.30.2 `background-color: #954c1e;`
+Warna tombol berubah menjadi oranye yang lebih gelap.
 
 
 ## 2.29 Footer
@@ -531,8 +560,8 @@ Tulisan berada di tengahh.
 ### 2.29.3 `padding: 1.25rem;`
 Memberikan ruang di dalam footer.
 
-### 2.29.4 `color: #7a8794;`
-Warna teks footer menjadi abu-abu.
+### 2.29.4 `color: #b24f0d;`
+Warna teks footer menjadi coklat.
 
 ### 2.29.5 `font-size: 0.9rem;`
 Ukuran tulisan sedikit lebih kecil
